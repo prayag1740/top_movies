@@ -4,7 +4,7 @@ export default function Card(props) {
   return (
     <>
     <div className='my-3'>
-    <div className="card" style={{width: "18rem"}}>
+    <div className="card" style={{width: "18rem" , borderWidth: "1rem"}}>
     <img className="card-img-top" src={props.image} alt="Card image cap" />
     <div className="card-body">
     <h5 className="card-title">{props.title}</h5>

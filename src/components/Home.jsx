@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <>
-    <h1 className='heading'> Choose your favourite streaming App</h1>
+    <h1 className='heading' style={{backgroundColor: "#ACF6E8"}}> Choose your favourite streaming App</h1>
       <div className='button-container'>
       <button onClick={NetflixRedirect}>Netflix</button>
       <button onClick={AmazonPrimeRedirect} style={{marginLeft: '300px'}}>Amazon Prime</button>
