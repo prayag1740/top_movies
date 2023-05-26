@@ -8,7 +8,7 @@ export default function Card(props) {
     <img className="card-img-top" src={props.image} alt="Card image cap" />
     <div className="card-body">
     <h5 className="card-title">{props.title}</h5>
-    <p className="card-text">{props.text}</p>
+    <p className="card-text">{props.text.slice(0,100)}</p>
     <a href={props.redirect_link} className="btn btn-primary">Watch show</a>
     </div>
     </div>
